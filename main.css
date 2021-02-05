@@ -1,6 +1,23 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+header {
+  background-color: #6495ed;
+  background-image: url("./img/pattern.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: repeat-x;
+  padding: 30px 0 1px;
+}
+
+#logo {
+  width: 10%;
+}
+
+.posiz {
+  width: 80%;
+  margin: auto;
+}
 
 .Container {
   width: 80%;
@@ -8,7 +25,7 @@ body {
   border: 1px solid black;
 }
 .subject {
-  color: aqua;
+  color: #00bfff;
 }
 .write {
   color: grey;
