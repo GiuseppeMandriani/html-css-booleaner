@@ -62,3 +62,26 @@ table {
 .tbody {
   background-color: #6495ed;
 }
+
+#Interest {
+  color: lightgray;
+}
+.monitor {
+  margin: 20px;
+  width: 350px;
+  height: 350px;
+  background-image: url("./img/monitor.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Info {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.monitor.graph {
+  background-image: url("./img/graph.jpg");
+  background-size: contain;
+}
