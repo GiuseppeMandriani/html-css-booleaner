@@ -1,3 +1,27 @@
-h1 {
-  color: red;
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.Container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+.subject {
+  color: aqua;
+}
+.write {
+  color: grey;
+  line-height: 12px;
+}
+.write.little {
+  font-size: 8px;
+}
+
+.Descrizione {
+  font-size: 12px;
+  margin-top: 2px;
+}
+.evidenziato {
+  background-color: rgb(250, 236, 36);
 }
