@@ -11,7 +11,7 @@ header {
 }
 
 #logo {
-  width: 10%;
+  width: 15%;
 }
 
 .posiz {
@@ -22,8 +22,13 @@ header {
 .Container {
   width: 80%;
   margin: auto;
-  border: 1px solid black;
 }
+
+#Title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
 .subject {
   color: #00bfff;
 }
@@ -41,4 +46,14 @@ header {
 }
 .evidenziato {
   background-color: rgb(250, 236, 36);
+}
+table {
+  width: 100%;
+}
+
+.first.row {
+  background-color: #00bfff;
+}
+.cella {
+  width: 30%;
 }
