@@ -67,7 +67,7 @@ table {
   color: lightgray;
 }
 .monitor {
-  margin: 20px;
+  margin: 20px 0;
   width: 350px;
   height: 350px;
   background-image: url("./img/monitor.jpg");
@@ -84,4 +84,11 @@ table {
 .monitor.graph {
   background-image: url("./img/graph.jpg");
   background-size: contain;
+}
+.foot {
+  padding: 10px;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+  border-top: 1px solid #6495ed;
 }
