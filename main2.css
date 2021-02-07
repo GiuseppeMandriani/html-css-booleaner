@@ -77,12 +77,12 @@ main {
 .evidenziato {
   background-color: rgb(250, 236, 36);
 }
-
-#list {
+.center {
   text-align: center;
 }
 
 ul {
+  width: 100%;
   margin-left: 0px;
   padding-left: 0;
   text-align: giustify;
@@ -94,15 +94,22 @@ li {
   margin: 5px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+.italic {
+  font-style: italic;
+}
+
 table {
   width: 100%;
   border: 1px solid #6495ed;
   border-spacing: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .first.row {
-  background-color: #00bfff;
+  background-color: #708090;
 }
 
 th,
@@ -114,11 +121,11 @@ td {
 }
 
 .tbody {
-  background-color: #6495ed;
+  background-color: #9fb6cd;
 }
 
 #Interest {
-  color: lightgray;
+  color: rgb(26, 25, 25);
 }
 .monitor {
   margin: 20px 0;
