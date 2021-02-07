@@ -1,0 +1,138 @@
+body {
+  font-family: "Bodoni Moda", serif;
+  background-color: #f5f5f5;
+}
+header {
+  background-color: #a9a9a9;
+  background-image: url("./img/pattern.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: repeat-x;
+  padding: 30px 0 1px;
+}
+
+#logo {
+  width: 15%;
+}
+
+.posiz {
+  width: 80%;
+  margin: auto;
+}
+
+.Container {
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgba(219, 209, 209, 0.801);
+  padding: 10px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+#Title {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: center;
+}
+
+.subject {
+  color: #00bfff;
+}
+.write {
+  color: grey;
+  line-height: 1em;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.write.little {
+  font-size: 10px;
+  margin-right: 0;
+}
+
+.img {
+  text-align: center;
+}
+
+#img1 {
+  width: 463px;
+  height: 361px;
+}
+
+.Descrizione {
+  font-size: 12px;
+  margin-top: 2px;
+  text-align: center;
+}
+.article {
+  text-align: justify;
+}
+
+.evidenziato {
+  background-color: rgb(250, 236, 36);
+}
+
+ul {
+  margin-left: 0px;
+  padding-left: 0;
+  text-align: giustify;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #6495ed;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.first.row {
+  background-color: #00bfff;
+}
+
+th,
+td {
+  padding: 5px;
+}
+.cella {
+  width: 30%;
+}
+
+.tbody {
+  background-color: #6495ed;
+}
+
+#Interest {
+  color: lightgray;
+}
+.monitor {
+  margin: 20px 0;
+  width: 350px;
+  height: 350px;
+  background-image: url("./img/monitor.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+.Info {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.monitor.graph {
+  background-image: url("./img/graph.jpg");
+  background-size: contain;
+  display: inline-block;
+}
+.foot {
+  padding: 10px;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+  border-top: 1px solid #6495ed;
+}
