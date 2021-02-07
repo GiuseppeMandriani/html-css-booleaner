@@ -68,6 +68,7 @@ main {
   margin-top: 2px;
   text-align: right;
   margin-right: 20px;
+  font-style: italic;
 }
 .article {
   text-align: justify;
@@ -77,10 +78,20 @@ main {
   background-color: rgb(250, 236, 36);
 }
 
+#list {
+  text-align: center;
+}
+
 ul {
   margin-left: 0px;
   padding-left: 0;
   text-align: giustify;
+}
+li {
+  display: inline-block;
+  background-color: #eee9e9;
+  width: 30%;
+  margin: 5px;
 }
 
 table {
