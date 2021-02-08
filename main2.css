@@ -11,6 +11,8 @@ header {
   padding: 30px 0 1px;
 }
 
+/* Logo */
+
 #logo {
   width: 15%;
 }
@@ -31,6 +33,8 @@ main {
   width: 80%;
   margin: auto;
 }
+
+/* Titolo Foto e articolo */
 
 #Title {
   font-size: 40px;
@@ -77,6 +81,8 @@ main {
 .evidenziato {
   background-color: rgb(250, 236, 36);
 }
+
+/* Liste */
 .center {
   text-align: center;
 }
@@ -97,9 +103,13 @@ li {
 .underline {
   text-decoration: underline;
 }
+
+/* Table */
+
 .italic {
   font-style: italic;
 }
+
 
 table {
   width: 100%;
@@ -124,6 +134,8 @@ td {
   background-color: #9fb6cd;
 }
 
+/* Interessi */
+
 #Interest {
   color: rgb(26, 25, 25);
 }
@@ -143,11 +155,15 @@ td {
   padding: 20px;
 }
 
+/* Immagini */
+
 .monitor.graph {
   background-image: url("./img/graph.jpg");
   background-size: contain;
   display: inline-block;
 }
+
+/* Footer */
 
 .foot {
   padding: 10px;
