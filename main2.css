@@ -97,7 +97,10 @@ li {
   display: inline-block;
   background-color: #eee9e9;
   width: 30%;
+  height: 280px;
+  /* Mettendo l'altezza me lo sposta sempre verso il basso */
   margin: 5px;
+  padding: 5px;
 }
 
 .underline {
